@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+background-color: black;
+color: white;
+padding: 8px;
+display: flex;
+justify-content: space-around;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+button{
+     height: 3rem;
+     color: white;
+     border-radius: 15px;
+     margin: 10px;
+     font-size: 16px;
+     border: 0px;
+     padding: 10px;
+     line-height: 1.5px;
+     margin-left: 1rem;
+
+   }
+.btn1{
+    background-color: black;
+    width: 12rem;
+    border-color: white;
+    border: 2px gray solid;
+    padding: 6px 22px 6px 22px;
+
+}
+.btn2{
+    background-color: #4c6fd5;
+    width: 8rem;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+.flex_btn{
+    display: flex;
+    gap: 6px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.hero>h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.hero>input{
+    height: 4rem;
+    width: 66%;
+    max-width: 720px;
+    font-size: 20px;
+    border: 1px black solid;
+    padding: 0.5rem;
+
+}
+.info{
+    padding: 2rem;
+    
+}
+.grid_container{
+    display: grid;
+}
+.grid_item{
+    display: flex;
+}
+.grid_item>p{
+
+}
